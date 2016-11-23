@@ -1,0 +1,3 @@
+# ninja log v5
+0	1192	0	CMakeFiles/gpuimage-library.dir/src/main/jni/yuv-decoder.c.o	3cf97194f0b1b0d7
+1201	1385	0	../../../../build/intermediates/cmake/release/obj/mips64/libgpuimage-library.so	5ab24e81a61a7607

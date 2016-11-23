@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "E:/StudioProjects/android-gpuimage/library/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"D:\\Android\\sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build E:\\StudioProjects\\android-gpuimage\\library\\.externalNativeBuild\\cmake\\debug\\x86 --target clean"
+	],
+	"libraries" : 
+	{
+		"gpuimage-library-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "gpuimage-library",
+			"buildCommand" : "D:\\Android\\sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build E:\\StudioProjects\\android-gpuimage\\library\\.externalNativeBuild\\cmake\\debug\\x86 --target gpuimage-library",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain D:/android-ndk-r13b/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=D:/android-ndk-r13b/platforms/android-17/arch-x86 -Dgpuimage_library_EXPORTS  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/StudioProjects/android-gpuimage/library/src/main/jni/yuv-decoder.c",
+					"workingDirectory" : "E:/StudioProjects/android-gpuimage/library/.externalNativeBuild/cmake/debug/x86"
+				}
+			],
+			"output" : "E:/StudioProjects/android-gpuimage/library/build/intermediates/cmake/debug/obj/x86/libgpuimage-library.so",
+			"toolchain" : "3601291625"
+		}
+	},
+	"toolchains" : 
+	{
+		"3601291625" : 
+		{
+			"cCompilerExecutable" : "D:/android-ndk-r13b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/android-ndk-r13b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

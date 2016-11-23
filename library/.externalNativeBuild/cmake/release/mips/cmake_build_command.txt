@@ -1,0 +1,16 @@
+Executable : D:\Android\sdk\cmake\3.6.3155560\bin\cmake.exe
+arguments : 
+-HE:\StudioProjects\android-gpuimage\library
+-BE:\StudioProjects\android-gpuimage\library\.externalNativeBuild\cmake\release\mips
+-GAndroid Gradle - Ninja
+-DANDROID_ABI=mips
+-DANDROID_NDK=D:\android-ndk-r13b
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=E:\StudioProjects\android-gpuimage\library\build\intermediates\cmake\release\obj\mips
+-DCMAKE_BUILD_TYPE=Release
+-DCMAKE_MAKE_PROGRAM=D:\Android\sdk\cmake\3.6.3155560\bin\ninja.exe
+-DCMAKE_TOOLCHAIN_FILE=D:\android-ndk-r13b\build\cmake\android.toolchain.cmake
+-DANDROID_NATIVE_API_LEVEL=17
+-DCMAKE_C_FLAGS=
+-DCMAKE_CXX_FLAGS=
+jvmArgs : 
+

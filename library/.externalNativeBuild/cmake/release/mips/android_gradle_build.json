@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "E:/StudioProjects/android-gpuimage/library/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"D:\\Android\\sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build E:\\StudioProjects\\android-gpuimage\\library\\.externalNativeBuild\\cmake\\release\\mips --target clean"
+	],
+	"libraries" : 
+	{
+		"gpuimage-library-Release-mips" : 
+		{
+			"abi" : "mips",
+			"artifactName" : "gpuimage-library",
+			"buildCommand" : "D:\\Android\\sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build E:\\StudioProjects\\android-gpuimage\\library\\.externalNativeBuild\\cmake\\release\\mips --target gpuimage-library",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target mipsel-none-linux-android -gcc-toolchain D:/android-ndk-r13b/toolchains/mipsel-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/android-ndk-r13b/platforms/android-17/arch-mips -Dgpuimage_library_EXPORTS  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "E:/StudioProjects/android-gpuimage/library/src/main/jni/yuv-decoder.c",
+					"workingDirectory" : "E:/StudioProjects/android-gpuimage/library/.externalNativeBuild/cmake/release/mips"
+				}
+			],
+			"output" : "E:/StudioProjects/android-gpuimage/library/build/intermediates/cmake/release/obj/mips/libgpuimage-library.so",
+			"toolchain" : "3601291625"
+		}
+	},
+	"toolchains" : 
+	{
+		"3601291625" : 
+		{
+			"cCompilerExecutable" : "D:/android-ndk-r13b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/android-ndk-r13b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}
